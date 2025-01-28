@@ -16,9 +16,16 @@
   max-width: 100%;
 }
 
-body {
-  margin-left: 15.625rem;
-  margin-right: 6.25rem;
+/*----------------
+    CONTAINER
+------------------*/
+
+.container {
+  max-width: 106.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12.5rem;
+  padding-right: 1.25rem;
 }
 
 /*----------------
@@ -27,11 +34,11 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
   padding: 1.25rem;
   position: sticky;
   top: 0;
   z-index: 10;
+  justify-content: space-between;
 }
 
 header img {
@@ -73,9 +80,9 @@ header img {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -10px;
+  bottom: -54px;
   width: 0;
-  height: 2px;
+  height: 5px;
   background: #0282f9;
   transition: width 0.3s ease;
 }
@@ -84,4 +91,21 @@ header img {
 }
 .animated-underline:hover::after {
   width: 100%;
+}
+
+/*----------------
+    MAIN
+------------------*/
+
+main h1 {
+  color: white;
+}
+
+.jumbo {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.rowOne {
+  background-color: #1c1c1c;
 }
