@@ -109,3 +109,27 @@ main h1 {
 .rowOne {
   background-color: #1c1c1c;
 }
+
+.rowTwo {
+  background-color: #0282f9;
+}
+
+.service {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-size {
+  width: 2.5rem;
+}
+
+/*----------------
+    FOOTER
+------------------*/
+
+.footer-top {
+  background-image: url("/public/img/footer-bg.jpg");
+}
