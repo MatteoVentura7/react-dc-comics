@@ -117,13 +117,25 @@ main h1 {
 .service {
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
+  padding-left: 15.625rem;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .img-size {
-  width: 2.5rem;
+  width: 3.125rem;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.img-details {
+  color: white;
+  padding-left: 0.625rem;
 }
 
 /*----------------
@@ -182,6 +194,11 @@ footer .row .col {
   cursor: pointer;
   color: white;
   font-size: 1.25rem;
+}
+
+.btn:hover {
+  background-color: #0282f9;
+  transition: 1s;
 }
 
 .fot h2 {
