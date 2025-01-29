@@ -1,98 +1,109 @@
 export default function Footer() {
   return (
     <footer>
-      <div className="back-img">
-        <div className="container footer-top row">
-          <div className="col">
-            <h3>DC COMICS</h3>
-            <nav className="footer-nav">
+      <div className="footer-top">
+        <div className="container">
+          <div className="nav-foot">
+            <div>
+              <h3>DC COMICS</h3>
               <ul>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">Characters</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">Comics</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">Movies</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">TV</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">Games</a>
+                </li>
+                <li>
+                  <a href="#">Videos</a>
+                </li>
+                <li>
+                  <a href="#">News</a>
                 </li>
               </ul>
-            </nav>
-          </div>
-          <div className="col">
-            <h3>DC</h3>
-            <nav className="footer-nav">
+              <h3>SHOP</h3>
               <ul>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">Shop DC</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
-                </li>
-                <li>
-                  <a href="#">Link</a>
-                </li>
-                <li>
-                  <a href="#">Link</a>
-                </li>
-                <li>
-                  <a href="#">Link</a>
+                  <a href="#">Shop DC Collectibles</a>
                 </li>
               </ul>
-            </nav>
-          </div>
-          <div className="col">
-            <h3>SITES</h3>
-            <nav className="footer-nav">
+            </div>
+            <div>
+              <h3>DC</h3>
               <ul>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">Terms Of Use</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">Privacy policy (New)</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">Ad Choices</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">Advertising</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">Jobs</a>
+                </li>
+                <li>
+                  <a href="#">Subscriptions</a>
+                </li>
+                <li>
+                  <a href="#">Talent Workshops</a>
+                </li>
+                <li>
+                  <a href="#">CPSC Certificates</a>
+                </li>
+                <li>
+                  <a href="#">Ratings</a>
+                </li>
+                <li>
+                  <a href="#">Shop Help</a>
+                </li>
+                <li>
+                  <a href="#">Contact US</a>
                 </li>
               </ul>
-            </nav>
-          </div>
-          <div className="col">
-            <h3>SHOP</h3>
-            <nav className="footer-nav">
+            </div>
+            <div>
+              <h3>SITES</h3>
               <ul>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">DC</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">MAD Magazine</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">DC Kids</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">DC Universe</a>
                 </li>
                 <li>
-                  <a href="#">Link</a>
+                  <a href="#">DC Power Visa</a>
                 </li>
               </ul>
-            </nav>
-          </div>
-          <div>
-            <img src="public\img\dc-logo-bg.png" alt="" />
+            </div>
+            <div>
+              <img
+                className="logo-foot"
+                src="img/dc-logo-bg.png"
+                alt="DC Logo"
+              />
+            </div>
           </div>
         </div>
       </div>

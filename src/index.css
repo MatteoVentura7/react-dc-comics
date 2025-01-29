@@ -147,33 +147,6 @@ main h1 {
   background-size: cover;
 }
 
-.footer-top {
-  display: flex;
-  padding-top: 2.5rem;
-}
-
-.footer-top h3 {
-  color: white;
-  margin-bottom: 0.9375rem;
-}
-
-.footer-nav ul {
-  list-style: none;
-  line-height: 1.7;
-}
-
-nav a {
-  text-decoration: none;
-  color: #797979;
-}
-/* .col {
-  flex-grow: 1;
-} */
-
-footer .row .col {
-  width: calc(100% / 2);
-}
-
 .footer-bottom {
   background-color: #303030;
   padding-top: 2.5rem;
@@ -203,4 +176,55 @@ footer .row .col {
 
 .fot h2 {
   color: #0282f9;
+}
+
+/*top*/
+
+.footer-top {
+  background-image: url(../public/img/footer-bg.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  padding-top: 2.5rem;
+  padding-bottom: 1.875rem;
+}
+
+.nav-foot {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.nav-foot div {
+  width: 180px;
+}
+
+.nav-foot h3 {
+  padding-bottom: 10px;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.logo-foot {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
 }
