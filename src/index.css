@@ -26,6 +26,8 @@
   margin-right: auto;
   padding-left: 12.5rem;
   padding-right: 1.25rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*----------------
@@ -33,12 +35,11 @@
 ------------------*/
 
 header {
-  display: flex;
   padding: 1.25rem;
   position: sticky;
   top: 0;
   z-index: 10;
-  justify-content: space-between;
+  background-color: white;
 }
 
 header img {
@@ -178,7 +179,9 @@ main h1 {
   color: #0282f9;
 }
 
-/*top*/
+/*----------------
+    FOOTER TOP
+------------------*/
 
 .footer-top {
   background-image: url(../public/img/footer-bg.jpg);
