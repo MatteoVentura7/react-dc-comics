@@ -112,29 +112,27 @@ export default function Footer() {
           <div className="footer-left">
             <button className="btn">SIGN-UP NOW!</button>
           </div>
-          <div className="footer-right">
-            <nav className="main-nav">
-              <ul id="nav-list">
-                <li>
-                  <h2>FOLLOW US!</h2>
-                </li>
-                <li>
-                  <img src="public\img\footer-facebook.png" alt="" />
-                </li>
-                <li>
-                  <img src="public\img\footer-twitter.png" alt="" />
-                </li>
-                <li>
-                  <img src="public\img\footer-youtube.png" alt="" />
-                </li>
-                <li>
-                  <img src="public\img\footer-pinterest.png" alt="" />
-                </li>
-                <li>
-                  <img src="public\img\footer-periscope.png" alt="" />
-                </li>
-              </ul>
-            </nav>
+          <div className="nav-list">
+            <span>
+              <a href="#">
+                <h2>FOLLOW US</h2>
+              </a>
+            </span>
+            <a href="">
+              <img src="img/footer-facebook.png" alt="Facebook" />
+            </a>
+            <a href="">
+              <img src="img/footer-twitter.png" alt="Twitter" />
+            </a>
+            <a href="">
+              <img src="img/footer-youtube.png" alt="YouTube" />
+            </a>
+            <a href="">
+              <img src="img/footer-pinterest.png" alt="Pinterest" />
+            </a>
+            <a href="">
+              <img src="img/footer-periscope.png" alt="Periscope" />
+            </a>
           </div>
         </div>
       </div>

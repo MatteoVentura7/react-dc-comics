@@ -157,7 +157,7 @@ main h1 {
 .fot {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
 .btn {
@@ -177,6 +177,20 @@ main h1 {
 
 .fot h2 {
   color: #0282f9;
+  padding-right: 1.25rem;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list a {
+  padding-right: 1.25rem;
+}
+
+.nav-list img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
 }
 
 /*----------------
