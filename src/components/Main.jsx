@@ -5,9 +5,20 @@ export default function Main() {
     <main>
       <div className="films">
         <div className="container">
+          <div className="btn-relativ">
+            <button className="btn-cr" type="button">
+              CURRENT SERIES
+            </button>
+          </div>
           <ProductCont />
         </div>
+        <div className="btn-pos">
+          <button className="btn-load" type="button">
+            LOAD MORE
+          </button>
+        </div>
       </div>
+
       <div className="rowTwo">
         <div className="container service">
           <div className="details">
