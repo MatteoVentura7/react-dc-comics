@@ -94,6 +94,19 @@ header img {
   width: 100%;
 }
 
+/*-------------
+    HERO
+-------------*/
+
+.hero {
+  height: 25rem;
+  background-position: contain;
+  overflow: hidden;
+}
+.hero img {
+  width: 100%;
+}
+
 /*----------------
     MAIN
 ------------------*/
