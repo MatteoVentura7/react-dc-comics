@@ -16,16 +16,18 @@
   max-width: 100%;
 }
 
+main {
+  color: white;
+}
+
 /*----------------
     CONTAINER
 ------------------*/
 
 .container {
-  max-width: 106.25rem;
+  max-width: 87.5rem;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 12.5rem;
-  padding-right: 1.25rem;
   display: flex;
   justify-content: space-between;
 }
@@ -115,15 +117,6 @@ main h1 {
   color: white;
 }
 
-.jumbo {
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
-}
-
-.rowOne {
-  background-color: #1c1c1c;
-}
-
 .rowTwo {
   background-color: #0282f9;
 }
@@ -131,8 +124,7 @@ main h1 {
 .service {
   padding-top: 3.125rem;
   padding-bottom: 3.125rem;
-  padding-left: 15.625rem;
-
+  padding-left: 6.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -152,6 +144,33 @@ main h1 {
   padding-left: 0.625rem;
 }
 
+/*-------------
+    FILMS
+-------------*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 3.125rem;
+}
+.col {
+  width: calc(100% / 6);
+}
+.card {
+  height: 100%;
+  padding: 10px;
+}
+.card img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: top;
+  aspect-ratio: 1;
+  padding-bottom: 0.625rem;
+}
+
+.films {
+  background-color: #1c1c1c;
+}
 /*----------------
     FOOTER
 ------------------*/
