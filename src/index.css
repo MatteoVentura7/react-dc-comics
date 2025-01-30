@@ -20,10 +20,6 @@ main {
   color: white;
 }
 
-/*----------------
-    CONTAINER
-------------------*/
-
 .container {
   max-width: 87.5rem;
   margin-left: auto;
@@ -79,6 +75,7 @@ header img {
   transition: color 0.3s ease;
   text-emphasis: center;
 }
+
 .animated-underline::after {
   content: "";
   position: absolute;
@@ -89,15 +86,21 @@ header img {
   background: #0282f9;
   transition: width 0.3s ease;
 }
+
 .animated-underline:hover {
   color: #0282f9;
 }
+
 .animated-underline:hover::after {
   width: 100%;
 }
 
 /*-------------
-    HERO
+    MAIN
+-------------*/
+
+/*-------------
+    SECTION HERO
 -------------*/
 
 .hero {
@@ -105,47 +108,13 @@ header img {
   background-position: contain;
   overflow: hidden;
 }
+
 .hero img {
   width: 100%;
 }
 
-/*----------------
-    MAIN
-------------------*/
-
-main h1 {
-  color: white;
-}
-
-.rowTwo {
-  background-color: #0282f9;
-}
-
-.service {
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
-  padding-left: 6.25rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.img-size {
-  width: 3.125rem;
-}
-
-.details {
-  display: flex;
-  align-items: center;
-}
-
-.img-details {
-  color: white;
-  padding-left: 0.625rem;
-}
-
 /*-------------
-    FILMS
+    SECTION FILMS
 -------------*/
 .row {
   display: flex;
@@ -212,58 +181,43 @@ main h1 {
 }
 
 /*----------------
-    FOOTER
+    SECTION BLUE
 ------------------*/
 
-.back-img {
-  background-image: url("/public/img/footer-bg.jpg");
-  background-size: cover;
+main h1 {
+  color: white;
 }
 
-.footer-bottom {
-  background-color: #303030;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.rowTwo {
+  background-color: #0282f9;
 }
 
-.fot {
+.service {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  padding-left: 6.25rem;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
-.btn {
-  padding: 1.125rem;
-  background-color: transparent;
-  border: 3px solid;
-  border-color: #0282f9;
-  cursor: pointer;
-  color: white;
-  font-size: 1.25rem;
+.img-size {
+  width: 3.125rem;
 }
 
-.btn:hover {
-  background-color: #0282f9;
-  transition: 1s;
-}
-
-.fot h2 {
-  color: #0282f9;
-  padding-right: 1.25rem;
-}
-
-.nav-list {
+.details {
   display: flex;
+  align-items: center;
 }
 
-.nav-list a {
-  padding-right: 1.25rem;
+.img-details {
+  color: white;
+  padding-left: 0.625rem;
 }
 
-.nav-list img:hover {
-  cursor: pointer;
-  transform: scale(1.5);
-}
+/*----------------
+    FOOTER
+------------------*/
 
 /*----------------
     FOOTER TOP
@@ -316,4 +270,58 @@ footer ul {
   top: 50%;
   right: 0;
   transform: translate(-50%, -50%);
+}
+
+/*----------------
+    FOOTER BOTTOM
+------------------*/
+
+.back-img {
+  background-image: url("/public/img/footer-bg.jpg");
+  background-size: cover;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.fot {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.btn {
+  padding: 1.125rem;
+  background-color: transparent;
+  border: 3px solid;
+  border-color: #0282f9;
+  cursor: pointer;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.btn:hover {
+  background-color: #0282f9;
+  transition: 1s;
+}
+
+.fot h2 {
+  color: #0282f9;
+  padding-right: 1.25rem;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list a {
+  padding-right: 1.25rem;
+}
+
+.nav-list img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
 }
